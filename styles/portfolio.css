@@ -7,6 +7,16 @@
     "wdth" 100;
 }
 
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png'); 
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    /* background-position: top left bottom right; mane 1st background ta top and left e jabe and second background ta bottom right*/
+}
+
+/* header */
+
+
 /* shared style */
 
 .text-primary{
@@ -59,5 +69,7 @@ nav li a{
 }
 .banner{
     display: flex;
-    justify-content: space-between; margin: 0 35px 0 230px;
+    justify-content: space-between; 
+    /* margin: 0 35px 0 230px; upor dan nich bam diker margin*/
+    margin: 0 35px 0 230px;
 }
